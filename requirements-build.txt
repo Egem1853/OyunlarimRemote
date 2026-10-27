@@ -1,0 +1,4 @@
+# Derleme (exe üretimi) için gerekenler. Çalıştırmak için Python 3.9+ yeterli; ek paket şart değil.
+pyinstaller>=6.6
+# İsteğe bağlı: "Canlı ekranda ses" özelliği için. Kurulamazsa exe yine derlenir, sadece o özellik kapalı olur.
+PyAudioWPatch; sys_platform == "win32"
